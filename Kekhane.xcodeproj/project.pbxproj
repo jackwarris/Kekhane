@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044D40861EF855AB00235E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A063A71EF54002000D273F /* Main.storyboard */; };
+		045812851EF5454E00B83727 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045812841EF5454E00B83727 /* HomeController.swift */; };
+		045812871EF5456400B83727 /* DrinksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045812861EF5456400B83727 /* DrinksController.swift */; };
+		045812891EF5458A00B83727 /* ToppingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045812881EF5458A00B83727 /* ToppingsController.swift */; };
+		0458128B1EF5459600B83727 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458128A1EF5459600B83727 /* OrderController.swift */; };
+		0458128D1EF545BD00B83727 /* SavedOrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458128C1EF545BD00B83727 /* SavedOrdersController.swift */; };
+		0458129D1EF5490000B83727 /* SavedOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458129C1EF5490000B83727 /* SavedOrdersCell.swift */; };
+		0458129F1EF5494200B83727 /* DrinkOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458129E1EF5494200B83727 /* DrinkOrderCell.swift */; };
+		045812A11EF5496C00B83727 /* DrinkCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045812A01EF5496C00B83727 /* DrinkCollectionCell.swift */; };
+		045812A31EF5497B00B83727 /* ToppingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045812A21EF5497B00B83727 /* ToppingCollectionCell.swift */; };
+		045812A51EF54BA300B83727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045812A41EF54BA300B83727 /* GoogleService-Info.plist */; };
+		0480C2EE1EF5DAA500FF31DA /* CustomerOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C2EA1EF5DAA500FF31DA /* CustomerOrder+CoreDataClass.swift */; };
+		0480C2EF1EF5DAA500FF31DA /* CustomerOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C2EB1EF5DAA500FF31DA /* CustomerOrder+CoreDataProperties.swift */; };
+		0480C2F01EF5DAA500FF31DA /* UserDrink+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C2EC1EF5DAA500FF31DA /* UserDrink+CoreDataClass.swift */; };
+		0480C2F11EF5DAA500FF31DA /* UserDrink+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C2ED1EF5DAA500FF31DA /* UserDrink+CoreDataProperties.swift */; };
+		04A063A41EF54002000D273F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A063A31EF54002000D273F /* AppDelegate.swift */; };
+		04A063A91EF54002000D273F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A063A71EF54002000D273F /* Main.storyboard */; };
+		04A063AC1EF54002000D273F /* Kekhane.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A063AA1EF54002000D273F /* Kekhane.xcdatamodeld */; };
+		04A063AE1EF54002000D273F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A063AD1EF54002000D273F /* Assets.xcassets */; };
+		04A063B11EF54002000D273F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A063AF1EF54002000D273F /* LaunchScreen.storyboard */; };
+		04A063BC1EF54002000D273F /* KekhaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A063BB1EF54002000D273F /* KekhaneTests.swift */; };
+		04A063C71EF54002000D273F /* KekhaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A063C61EF54002000D273F /* KekhaneUITests.swift */; };
+		04ACE4F31EF552530023CB7B /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE4F21EF552530023CB7B /* DrinkModel.swift */; };
+		04ACE4F61EF553260023CB7B /* ToppingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE4F51EF553260023CB7B /* ToppingModel.swift */; };
+		04ACE4F81EF553420023CB7B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE4F71EF553420023CB7B /* OrderModel.swift */; };
+		1B85B8CA1D93C6575B053E62 /* Pods_Kekhane_KekhaneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0D80A4986589A872675ECD /* Pods_Kekhane_KekhaneTests.framework */; };
+		5656511A0006C48CE6E7C0C1 /* Pods_KekhaneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB3F3D95C3FDDFA752F622A /* Pods_KekhaneTests.framework */; };
+		D1D85A2EA1AE2A0301460D44 /* Pods_Kekhane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA7F3299E9575A3DBC8FFF4 /* Pods_Kekhane.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D5BD92930AD61465DFDCCF89 /* Pods_KekhaneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C39E03E74CBB80C9F6713FD /* Pods_KekhaneUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A063B81EF54002000D273F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A063981EF54002000D273F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A0639F1EF54002000D273F;
+			remoteInfo = Kekhane;
+		};
+		04A063C31EF54002000D273F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A063981EF54002000D273F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A0639F1EF54002000D273F;
+			remoteInfo = Kekhane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038B81CCCC776FD9C76EB250 /* Pods-KekhaneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KekhaneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KekhaneUITests/Pods-KekhaneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		045812841EF5454E00B83727 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = Controllers/HomeController.swift; sourceTree = "<group>"; };
+		045812861EF5456400B83727 /* DrinksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinksController.swift; path = Controllers/DrinksController.swift; sourceTree = "<group>"; };
+		045812881EF5458A00B83727 /* ToppingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToppingsController.swift; path = Controllers/ToppingsController.swift; sourceTree = "<group>"; };
+		0458128A1EF5459600B83727 /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderController.swift; path = Controllers/OrderController.swift; sourceTree = "<group>"; };
+		0458128C1EF545BD00B83727 /* SavedOrdersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedOrdersController.swift; path = Controllers/SavedOrdersController.swift; sourceTree = "<group>"; };
+		0458129C1EF5490000B83727 /* SavedOrdersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedOrdersCell.swift; path = CustomCells/SavedOrdersCell.swift; sourceTree = "<group>"; };
+		0458129E1EF5494200B83727 /* DrinkOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkOrderCell.swift; path = CustomCells/DrinkOrderCell.swift; sourceTree = "<group>"; };
+		045812A01EF5496C00B83727 /* DrinkCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkCollectionCell.swift; path = CustomCells/DrinkCollectionCell.swift; sourceTree = "<group>"; };
+		045812A21EF5497B00B83727 /* ToppingCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToppingCollectionCell.swift; path = CustomCells/ToppingCollectionCell.swift; sourceTree = "<group>"; };
+		045812A41EF54BA300B83727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0480C2EA1EF5DAA500FF31DA /* CustomerOrder+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CustomerOrder+CoreDataClass.swift"; path = "Models/CustomerOrder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0480C2EB1EF5DAA500FF31DA /* CustomerOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CustomerOrder+CoreDataProperties.swift"; path = "Models/CustomerOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0480C2EC1EF5DAA500FF31DA /* UserDrink+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserDrink+CoreDataClass.swift"; path = "Models/UserDrink+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0480C2ED1EF5DAA500FF31DA /* UserDrink+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserDrink+CoreDataProperties.swift"; path = "Models/UserDrink+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04A063A01EF54002000D273F /* Kekhane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kekhane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A063A31EF54002000D273F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A063A81EF54002000D273F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A063AB1EF54002000D273F /* Kekhane.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kekhane.xcdatamodel; sourceTree = "<group>"; };
+		04A063AD1EF54002000D273F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A063B01EF54002000D273F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A063B21EF54002000D273F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A063B71EF54002000D273F /* KekhaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KekhaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A063BB1EF54002000D273F /* KekhaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekhaneTests.swift; sourceTree = "<group>"; };
+		04A063BD1EF54002000D273F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A063C21EF54002000D273F /* KekhaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KekhaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A063C61EF54002000D273F /* KekhaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekhaneUITests.swift; sourceTree = "<group>"; };
+		04A063C81EF54002000D273F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACE4F21EF552530023CB7B /* DrinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkModel.swift; path = Models/DrinkModel.swift; sourceTree = "<group>"; };
+		04ACE4F51EF553260023CB7B /* ToppingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToppingModel.swift; path = Models/ToppingModel.swift; sourceTree = "<group>"; };
+		04ACE4F71EF553420023CB7B /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderModel.swift; path = Models/OrderModel.swift; sourceTree = "<group>"; };
+		19E38E4D4FCF32B6BB775BFA /* Pods-KekhaneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KekhaneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KekhaneTests/Pods-KekhaneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B35E57434225CAFFF3D9A53 /* Pods-Kekhane.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kekhane.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kekhane/Pods-Kekhane.release.xcconfig"; sourceTree = "<group>"; };
+		2C39E03E74CBB80C9F6713FD /* Pods_KekhaneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KekhaneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59882F610889F739BEA8E737 /* Pods-KekhaneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KekhaneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KekhaneUITests/Pods-KekhaneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BD8903EEA36F5E518F15450 /* Pods-Kekhane.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kekhane.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kekhane/Pods-Kekhane.debug.xcconfig"; sourceTree = "<group>"; };
+		66FA1294E52FB2BB8FAC05E2 /* Pods-KekhaneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KekhaneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KekhaneTests/Pods-KekhaneTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA7F3299E9575A3DBC8FFF4 /* Pods_Kekhane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kekhane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C482FEA7DECDE12921D9C2FB /* Pods-Kekhane-KekhaneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kekhane-KekhaneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kekhane-KekhaneTests/Pods-Kekhane-KekhaneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB3F3D95C3FDDFA752F622A /* Pods_KekhaneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KekhaneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D80A4986589A872675ECD /* Pods_Kekhane_KekhaneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kekhane_KekhaneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A4A61A60C80D83AEFBD820 /* Pods-Kekhane-KekhaneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kekhane-KekhaneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kekhane-KekhaneTests/Pods-Kekhane-KekhaneTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A0639D1EF54002000D273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D85A2EA1AE2A0301460D44 /* Pods_Kekhane.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063B41EF54002000D273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656511A0006C48CE6E7C0C1 /* Pods_KekhaneTests.framework in Frameworks */,
+				1B85B8CA1D93C6575B053E62 /* Pods_Kekhane_KekhaneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063BF1EF54002000D273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BD92930AD61465DFDCCF89 /* Pods_KekhaneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045812831EF5448B00B83727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A063AF1EF54002000D273F /* LaunchScreen.storyboard */,
+				04A063B21EF54002000D273F /* Info.plist */,
+				045812A41EF54BA300B83727 /* GoogleService-Info.plist */,
+				04A063AD1EF54002000D273F /* Assets.xcassets */,
+				04A063AA1EF54002000D273F /* Kekhane.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0458128E1EF545C200B83727 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				045812841EF5454E00B83727 /* HomeController.swift */,
+				045812861EF5456400B83727 /* DrinksController.swift */,
+				045812881EF5458A00B83727 /* ToppingsController.swift */,
+				0458128A1EF5459600B83727 /* OrderController.swift */,
+				0458128C1EF545BD00B83727 /* SavedOrdersController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		045812931EF5482D00B83727 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				045812A01EF5496C00B83727 /* DrinkCollectionCell.swift */,
+				045812A21EF5497B00B83727 /* ToppingCollectionCell.swift */,
+				0458129C1EF5490000B83727 /* SavedOrdersCell.swift */,
+				0458129E1EF5494200B83727 /* DrinkOrderCell.swift */,
+			);
+			name = "Custom Components";
+			sourceTree = "<group>";
+		};
+		04A063971EF54002000D273F = {
+			isa = PBXGroup;
+			children = (
+				04A063A21EF54002000D273F /* Kekhane */,
+				04A063BA1EF54002000D273F /* KekhaneTests */,
+				04A063C51EF54002000D273F /* KekhaneUITests */,
+				04A063A11EF54002000D273F /* Products */,
+				C5E3B88CDB103D50E6EC5BF8 /* Pods */,
+				14F5B906F50BE5AB02145137 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A063A11EF54002000D273F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A063A01EF54002000D273F /* Kekhane.app */,
+				04A063B71EF54002000D273F /* KekhaneTests.xctest */,
+				04A063C21EF54002000D273F /* KekhaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A063A21EF54002000D273F /* Kekhane */ = {
+			isa = PBXGroup;
+			children = (
+				04A063A31EF54002000D273F /* AppDelegate.swift */,
+				04A063A71EF54002000D273F /* Main.storyboard */,
+				0458128E1EF545C200B83727 /* Controllers */,
+				045812931EF5482D00B83727 /* Custom Components */,
+				04ACE4F41EF552580023CB7B /* Models */,
+				045812831EF5448B00B83727 /* Supporting Files */,
+			);
+			path = Kekhane;
+			sourceTree = "<group>";
+		};
+		04A063BA1EF54002000D273F /* KekhaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A063BB1EF54002000D273F /* KekhaneTests.swift */,
+				04A063BD1EF54002000D273F /* Info.plist */,
+			);
+			path = KekhaneTests;
+			sourceTree = "<group>";
+		};
+		04A063C51EF54002000D273F /* KekhaneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A063C61EF54002000D273F /* KekhaneUITests.swift */,
+				04A063C81EF54002000D273F /* Info.plist */,
+			);
+			path = KekhaneUITests;
+			sourceTree = "<group>";
+		};
+		04ACE4F41EF552580023CB7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04ACE4F21EF552530023CB7B /* DrinkModel.swift */,
+				04ACE4F51EF553260023CB7B /* ToppingModel.swift */,
+				04ACE4F71EF553420023CB7B /* OrderModel.swift */,
+				0480C2EA1EF5DAA500FF31DA /* CustomerOrder+CoreDataClass.swift */,
+				0480C2EB1EF5DAA500FF31DA /* CustomerOrder+CoreDataProperties.swift */,
+				0480C2EC1EF5DAA500FF31DA /* UserDrink+CoreDataClass.swift */,
+				0480C2ED1EF5DAA500FF31DA /* UserDrink+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		14F5B906F50BE5AB02145137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA7F3299E9575A3DBC8FFF4 /* Pods_Kekhane.framework */,
+				CAB3F3D95C3FDDFA752F622A /* Pods_KekhaneTests.framework */,
+				2C39E03E74CBB80C9F6713FD /* Pods_KekhaneUITests.framework */,
+				CD0D80A4986589A872675ECD /* Pods_Kekhane_KekhaneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E3B88CDB103D50E6EC5BF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD8903EEA36F5E518F15450 /* Pods-Kekhane.debug.xcconfig */,
+				1B35E57434225CAFFF3D9A53 /* Pods-Kekhane.release.xcconfig */,
+				19E38E4D4FCF32B6BB775BFA /* Pods-KekhaneTests.debug.xcconfig */,
+				66FA1294E52FB2BB8FAC05E2 /* Pods-KekhaneTests.release.xcconfig */,
+				038B81CCCC776FD9C76EB250 /* Pods-KekhaneUITests.debug.xcconfig */,
+				59882F610889F739BEA8E737 /* Pods-KekhaneUITests.release.xcconfig */,
+				C482FEA7DECDE12921D9C2FB /* Pods-Kekhane-KekhaneTests.debug.xcconfig */,
+				F2A4A61A60C80D83AEFBD820 /* Pods-Kekhane-KekhaneTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A0639F1EF54002000D273F /* Kekhane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A063CB1EF54002000D273F /* Build configuration list for PBXNativeTarget "Kekhane" */;
+			buildPhases = (
+				663677A09D3426F550014955 /* [CP] Check Pods Manifest.lock */,
+				04A0639C1EF54002000D273F /* Sources */,
+				04A0639D1EF54002000D273F /* Frameworks */,
+				04A0639E1EF54002000D273F /* Resources */,
+				485F0C2ED6832AAC694BAC9C /* [CP] Embed Pods Frameworks */,
+				C58847106DCF052062D796C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kekhane;
+			productName = Kekhane;
+			productReference = 04A063A01EF54002000D273F /* Kekhane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A063B61EF54002000D273F /* KekhaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A063CE1EF54002000D273F /* Build configuration list for PBXNativeTarget "KekhaneTests" */;
+			buildPhases = (
+				0B670C9F76963FF057E9D810 /* [CP] Check Pods Manifest.lock */,
+				04A063B31EF54002000D273F /* Sources */,
+				04A063B41EF54002000D273F /* Frameworks */,
+				04A063B51EF54002000D273F /* Resources */,
+				0C66281BC831C0A8D03E98AA /* [CP] Embed Pods Frameworks */,
+				643716D1B91DBBCEF0477040 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A063B91EF54002000D273F /* PBXTargetDependency */,
+			);
+			name = KekhaneTests;
+			productName = KekhaneTests;
+			productReference = 04A063B71EF54002000D273F /* KekhaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A063C11EF54002000D273F /* KekhaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A063D11EF54002000D273F /* Build configuration list for PBXNativeTarget "KekhaneUITests" */;
+			buildPhases = (
+				C583AD1890689105D9ADF900 /* [CP] Check Pods Manifest.lock */,
+				04A063BE1EF54002000D273F /* Sources */,
+				04A063BF1EF54002000D273F /* Frameworks */,
+				04A063C01EF54002000D273F /* Resources */,
+				3E3C3F1509576A86D1EA2670 /* [CP] Embed Pods Frameworks */,
+				093F32BF29388ABF2A7BB480 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A063C41EF54002000D273F /* PBXTargetDependency */,
+			);
+			name = KekhaneUITests;
+			productName = KekhaneUITests;
+			productReference = 04A063C21EF54002000D273F /* KekhaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A063981EF54002000D273F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.jackwarris;
+				TargetAttributes = {
+					04A0639F1EF54002000D273F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3UZ4S3QAS4;
+						ProvisioningStyle = Automatic;
+					};
+					04A063B61EF54002000D273F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3UZ4S3QAS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04A0639F1EF54002000D273F;
+					};
+					04A063C11EF54002000D273F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3UZ4S3QAS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04A0639F1EF54002000D273F;
+					};
+				};
+			};
+			buildConfigurationList = 04A0639B1EF54002000D273F /* Build configuration list for PBXProject "Kekhane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A063971EF54002000D273F;
+			productRefGroup = 04A063A11EF54002000D273F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A0639F1EF54002000D273F /* Kekhane */,
+				04A063B61EF54002000D273F /* KekhaneTests */,
+				04A063C11EF54002000D273F /* KekhaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A0639E1EF54002000D273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A063B11EF54002000D273F /* LaunchScreen.storyboard in Resources */,
+				045812A51EF54BA300B83727 /* GoogleService-Info.plist in Resources */,
+				04A063AE1EF54002000D273F /* Assets.xcassets in Resources */,
+				04A063A91EF54002000D273F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063B51EF54002000D273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063C01EF54002000D273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D40861EF855AB00235E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093F32BF29388ABF2A7BB480 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KekhaneUITests/Pods-KekhaneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B670C9F76963FF057E9D810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C66281BC831C0A8D03E98AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KekhaneTests/Pods-KekhaneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E3C3F1509576A86D1EA2670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KekhaneUITests/Pods-KekhaneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485F0C2ED6832AAC694BAC9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kekhane/Pods-Kekhane-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643716D1B91DBBCEF0477040 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KekhaneTests/Pods-KekhaneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		663677A09D3426F550014955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C583AD1890689105D9ADF900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C58847106DCF052062D796C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kekhane/Pods-Kekhane-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A0639C1EF54002000D273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480C2F01EF5DAA500FF31DA /* UserDrink+CoreDataClass.swift in Sources */,
+				04ACE4F61EF553260023CB7B /* ToppingModel.swift in Sources */,
+				0458128B1EF5459600B83727 /* OrderController.swift in Sources */,
+				045812891EF5458A00B83727 /* ToppingsController.swift in Sources */,
+				0480C2EE1EF5DAA500FF31DA /* CustomerOrder+CoreDataClass.swift in Sources */,
+				0480C2F11EF5DAA500FF31DA /* UserDrink+CoreDataProperties.swift in Sources */,
+				045812A31EF5497B00B83727 /* ToppingCollectionCell.swift in Sources */,
+				045812871EF5456400B83727 /* DrinksController.swift in Sources */,
+				0458129D1EF5490000B83727 /* SavedOrdersCell.swift in Sources */,
+				045812A11EF5496C00B83727 /* DrinkCollectionCell.swift in Sources */,
+				04A063AC1EF54002000D273F /* Kekhane.xcdatamodeld in Sources */,
+				0458128D1EF545BD00B83727 /* SavedOrdersController.swift in Sources */,
+				0480C2EF1EF5DAA500FF31DA /* CustomerOrder+CoreDataProperties.swift in Sources */,
+				04ACE4F31EF552530023CB7B /* DrinkModel.swift in Sources */,
+				04ACE4F81EF553420023CB7B /* OrderModel.swift in Sources */,
+				0458129F1EF5494200B83727 /* DrinkOrderCell.swift in Sources */,
+				04A063A41EF54002000D273F /* AppDelegate.swift in Sources */,
+				045812851EF5454E00B83727 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063B31EF54002000D273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A063BC1EF54002000D273F /* KekhaneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A063BE1EF54002000D273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A063C71EF54002000D273F /* KekhaneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A063B91EF54002000D273F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A0639F1EF54002000D273F /* Kekhane */;
+			targetProxy = 04A063B81EF54002000D273F /* PBXContainerItemProxy */;
+		};
+		04A063C41EF54002000D273F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A0639F1EF54002000D273F /* Kekhane */;
+			targetProxy = 04A063C31EF54002000D273F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A063A71EF54002000D273F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A063A81EF54002000D273F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A063AF1EF54002000D273F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A063B01EF54002000D273F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A063C91EF54002000D273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A063CA1EF54002000D273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A063CC1EF54002000D273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD8903EEA36F5E518F15450 /* Pods-Kekhane.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Kekhane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.Kekhane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04A063CD1EF54002000D273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B35E57434225CAFFF3D9A53 /* Pods-Kekhane.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Kekhane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.Kekhane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04A063CF1EF54002000D273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E38E4D4FCF32B6BB775BFA /* Pods-KekhaneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				INFOPLIST_FILE = KekhaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.KekhaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kekhane.app/Kekhane";
+			};
+			name = Debug;
+		};
+		04A063D01EF54002000D273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FA1294E52FB2BB8FAC05E2 /* Pods-KekhaneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				INFOPLIST_FILE = KekhaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.KekhaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kekhane.app/Kekhane";
+			};
+			name = Release;
+		};
+		04A063D21EF54002000D273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038B81CCCC776FD9C76EB250 /* Pods-KekhaneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				INFOPLIST_FILE = KekhaneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.KekhaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kekhane;
+			};
+			name = Debug;
+		};
+		04A063D31EF54002000D273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59882F610889F739BEA8E737 /* Pods-KekhaneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3UZ4S3QAS4;
+				INFOPLIST_FILE = KekhaneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackWarris.KekhaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kekhane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A0639B1EF54002000D273F /* Build configuration list for PBXProject "Kekhane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A063C91EF54002000D273F /* Debug */,
+				04A063CA1EF54002000D273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A063CB1EF54002000D273F /* Build configuration list for PBXNativeTarget "Kekhane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A063CC1EF54002000D273F /* Debug */,
+				04A063CD1EF54002000D273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A063CE1EF54002000D273F /* Build configuration list for PBXNativeTarget "KekhaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A063CF1EF54002000D273F /* Debug */,
+				04A063D01EF54002000D273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A063D11EF54002000D273F /* Build configuration list for PBXNativeTarget "KekhaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A063D21EF54002000D273F /* Debug */,
+				04A063D31EF54002000D273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04A063AA1EF54002000D273F /* Kekhane.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04A063AB1EF54002000D273F /* Kekhane.xcdatamodel */,
+			);
+			currentVersion = 04A063AB1EF54002000D273F /* Kekhane.xcdatamodel */;
+			path = Kekhane.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04A063981EF54002000D273F /* Project object */;
+}

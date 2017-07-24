@@ -1,0 +1,6 @@
+framework module Pods_KekhaneUITests {
+  umbrella header "Pods-KekhaneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
